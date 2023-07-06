@@ -17,7 +17,7 @@ const Detail = () => {
 
   useEffect(() => {
     getTodo(id);
-  }, []);
+  });
 
   return (
     <StContainer>
